@@ -3,20 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --text-color: #222;
-  --background: #fff;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: #f4f4f4;
-    --background: #222;
-  }
+  --text-color: #f4f4f4;
+  --background: linear-gradient(
+    0deg,
+    rgba(16, 16, 16, 1) 0%,
+    rgba(32, 32, 32, 1) 50%,
+    rgba(48, 48, 48, 1) 100%
+  );
 }
 
 body {
   color: var(--text-color);
+  background: rgb(16, 16, 16);
   background: var(--background);
+  /* background-repeat: no-repeat; */
+  min-height: 100dvh;
 }
 
 @layer utilities {
