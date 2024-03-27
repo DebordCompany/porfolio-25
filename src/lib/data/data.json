@@ -1,0 +1,278 @@
+{
+  "basics": {
+    "name": "Mario Sanz Gutiérrez",
+    "label": "FrontEnd developer con experiencia en diseño.",
+    "image": "/foto_perfil.webp",
+    "email": "work@debordcompany.com",
+    "phone": "+34 653901643",
+    "url": "https://debordcompany.es",
+    "summary": "Con más de dos años de experiencia como desarrollador Front-End, he tenido el privilegio de contribuir a una variedad de proyectos. Esta diversidad de experiencias me ha enriquecido con un amplio espectro de conocimientos y perspectivas. ",
+    "location": {
+      "address": "",
+      "postalCode": "28030",
+      "city": "Moratalaz, Madrid",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Mario Sanz",
+        "url": "https://www.linkedin.com/in/mario-sanz-guti%C3%A9rrez/"
+      },
+      {
+        "network": "Instagram",
+        "username": "@debordcompany",
+        "url": "https://www.instagram.com/debordcompany/?hl=es"
+      },
+      {
+        "network": "GitHub",
+        "username": "DebordCompany",
+        "url": "https://github.com/DebordCompany"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Ezpays",
+      "position": "FrontEnd developer",
+      "url": "https://ezpays.io/",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "summary": "Entre mis responsabilidades están: crear componentes en diferentes bibliotecas ( React.js, Vue,js), crear e integrar pasarelas de pago via API personalizadas para cada cliente, desarrollar kit digitales...  ",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Trazos_",
+      "position": "Desarrollador web",
+      "url": "https://trazos.net/",
+      "startDate": "2023-02-01",
+      "endDate": null,
+      "summary": "Mi función dentro de Trazos_ es el mantenimiento, soporte, desarrollo y escalabilidad de las distintas webs de la empresa",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "HN34",
+      "position": "FrontEnd Developer",
+      "startDate": "2022-07-01",
+      "endDate": "2023-01-01",
+      "summary": "En HN34 realicé las practicas del máster en desarrollo frontEnd, mis funciones eran y son (ya que sigo colaborando con ellos puntualmente) desarrollo web utilizando como tecnologías Vue,js, CSS, HTML, email marketing, internacionalización, integración de un motor de reservas... ",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Debord Company",
+      "position": "Freelance",
+      "startDate": "2017-08-01",
+      "endDate": "2023-01-01",
+      "summary": "Durante mi periodo como freelance he creado soluciones personalizadas a varios niveles, tanto  como desarrollador como diseñador gráfico",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Trazos_",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "FrontEnd developer",
+      "studyType": "Máster",
+      "startDate": "2021-01-01",
+      "endDate": "2022-04-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Universidad Complutense",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Grado en Filosofía",
+      "studyType": "Grado",
+      "startDate": "2008-09-01",
+      "endDate": "2013-06-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Vue",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Svelte",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Vite",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomator",
+      "isActive": true,
+      "description": "Web app para crear facturas simples de nicho. Creado con SvelteKit y express es un proyecto de aprendizaje que resuelve un problema real ",
+      "highlights": [
+        "Login",
+        "Base de datos",
+        "En desarrollo",
+        "Trabajo conjunto"
+      ],
+      "url": "https://autonomator.es/"
+    },
+    {
+      "name": "Las Vegas",
+      "isActive": true,
+      "description": "Creada con Vue.js, llevo mas de dos años dando soporte y actualizaciones a este proyecto.",
+      "highlights": [
+        "Diseño responsive",
+        "Automatización",
+        "Vue.js, scss, pasarela de pago"
+      ],
+      "url": "https://lasvegascafeteria.es"
+    },
+    {
+      "name": "Trazos_",
+      "isActive": true,
+      "description": "Scripts de automatización para agilizar procesos repetitivos dentro de las necesidades de la empresa",
+      "highlights": ["Node.js", "github", "Wordpress"],
+      "url": "https://github.com/Escuela-Trazos"
+    },
+    {
+      "name": "Freelance",
+      "isActive": false,
+      "description": "Recopilación de los trabajos realizados durante mi vida como freelance",
+      "highlights": [
+        "Desarrollo web",
+        "Diseño de interfaces",
+        "diseño gráfico"
+      ],
+      "url": "https://github.com/DebordCompany",
+      "github": "https://github.com/DebordCompany"
+    }
+  ]
+}
