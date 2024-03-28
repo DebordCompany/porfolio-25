@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import { Menu } from "./ui/Menu";
 import { MenuNav } from "./ui/MenuNav";
@@ -10,10 +11,12 @@ export function Navbar() {
     setMenu(!menu);
   }
   return (
-    <header className="mb-4">
-      <nav className="backdrop-blur-md px-8 py-6 flex justify-between shadow-2xl">
+    <header className="mb-8 sticky top-0 w-full bg-[#303030]">
+      <nav className=" px-8 py-6 flex justify-between shadow-2xl">
         <div>
-          <h3>Debord Company</h3>
+          <h3>
+            <Link href="/">Debord Company</Link>
+          </h3>
         </div>
         <div onClick={toggle}>
           <Menu />

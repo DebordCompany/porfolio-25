@@ -1,4 +1,13 @@
 {
+  "home": {
+    "title": "Developer and lover of design ",
+    "subtitle": "Mario Sanz Gutiérrez",
+    "aboutMe": [
+      "¡Hola!, mi nombre es Mario Sanz. Soy diseñador gráfico y desarrollador web. En 2017 empecé un proyecto llamado Debord Company, una marca personal que sigue creciendo a mi lado. A lo largo de mi carrera, he tenido la oportunidad de trabajar para una amplia variedad de empresas y clientes de diferentes sectores.",
+      "Como diseñador me he enfrentado a todas las situaciones imaginables manejando todo tipo de herramientas por ejemplo la suite de Adobe, como desarrollador web, me especializo en crear soluciones personalizadas utilizando diversas herramientas y tecnologías.",
+      "En particular, tengo experiencia trabajando con Vue.js, un framework moderno y eficiente para la creación de aplicaciones web. Este es mi portfolio personal, en el encontrareis mis datos y todos los trabajos míos y para empresas realizados hasta el 2023."
+    ]
+  },
   "basics": {
     "name": "Mario Sanz Gutiérrez",
     "label": "FrontEnd developer con experiencia en diseño.",
