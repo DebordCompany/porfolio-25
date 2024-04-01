@@ -3,7 +3,7 @@
     "title": "Developer and lover of design ",
     "subtitle": "Mario Sanz Gutiérrez",
     "aboutMe": [
-      "¡Hola!, mi nombre es Mario Sanz. Soy diseñador gráfico y desarrollador web. En 2017 empecé un proyecto llamado Debord Company, una marca personal que sigue creciendo a mi lado. A lo largo de mi carrera, he tenido la oportunidad de trabajar para una amplia variedad de empresas y clientes de diferentes sectores.",
+      "¡Hola!, <strong>mi nombre es Mario Sanz</strong>. Soy diseñador gráfico y desarrollador web. En 2017 empecé un proyecto llamado Debord Company, una marca personal que sigue creciendo a mi lado. A lo largo de mi carrera, he tenido la oportunidad de trabajar para una amplia variedad de empresas y clientes de diferentes sectores.",
       "Como diseñador me he enfrentado a todas las situaciones imaginables manejando todo tipo de herramientas por ejemplo la suite de Adobe, como desarrollador web, me especializo en crear soluciones personalizadas utilizando diversas herramientas y tecnologías.",
       "En particular, tengo experiencia trabajando con Vue.js, un framework moderno y eficiente para la creación de aplicaciones web. Este es mi portfolio personal, en el encontrareis mis datos y todos los trabajos míos y para empresas realizados hasta el 2023."
     ]
@@ -11,11 +11,13 @@
   "basics": {
     "name": "Mario Sanz Gutiérrez",
     "label": "FrontEnd developer con experiencia en diseño.",
-    "image": "/foto_perfil.webp",
+    "image": "/img/foto_perfil.webp",
     "email": "work@debordcompany.com",
-    "phone": "+34 653901643",
+    "phone": "+34 653 90 16 43",
     "url": "https://debordcompany.es",
-    "summary": "Con más de dos años de experiencia como desarrollador Front-End, he tenido el privilegio de contribuir a una variedad de proyectos. Esta diversidad de experiencias me ha enriquecido con un amplio espectro de conocimientos y perspectivas. ",
+    "summary": [
+      "Hola, soy <strong>Mario Sanz</strong>, cuento con más de dos años de experiencia como desarrollador Front-End, he tenido el privilegio de contribuir a una variedad de proyectos. Esta diversidad de experiencias me ha enriquecido con un amplio espectro de conocimientos y perspectivas. "
+    ],
     "location": {
       "address": "",
       "postalCode": "28030",
@@ -25,17 +27,17 @@
     },
     "profiles": [
       {
-        "network": "LinkedIn",
+        "network": "/img/linkedin-white.svg",
         "username": "Mario Sanz",
         "url": "https://www.linkedin.com/in/mario-sanz-guti%C3%A9rrez/"
       },
       {
-        "network": "Instagram",
+        "network": "/img/instagram-white.svg",
         "username": "@debordcompany",
         "url": "https://www.instagram.com/debordcompany/?hl=es"
       },
       {
-        "network": "GitHub",
+        "network": "/img/github-white.svg",
         "username": "DebordCompany",
         "url": "https://github.com/DebordCompany"
       }
@@ -47,7 +49,7 @@
       "position": "FrontEnd developer",
       "url": "https://ezpays.io/",
       "startDate": "2023-01-01",
-      "endDate": null,
+      "endDate": "Actual",
       "summary": "Entre mis responsabilidades están: crear componentes en diferentes bibliotecas ( React.js, Vue,js), crear e integrar pasarelas de pago via API personalizadas para cada cliente, desarrollar kit digitales...  ",
       "highlights": ["Started the company"]
     },
@@ -56,8 +58,8 @@
       "position": "Desarrollador web",
       "url": "https://trazos.net/",
       "startDate": "2023-02-01",
-      "endDate": null,
-      "summary": "Mi función dentro de Trazos_ es el mantenimiento, soporte, desarrollo y escalabilidad de las distintas webs de la empresa",
+      "endDate": "Actual",
+      "summary": "Mi función dentro de Trazos_ es el mantenimiento, soporte, desarrollo y escalabilidad de las distintas webs de la empresa aplicando tecnologias como React, Node, vanilla js...",
       "highlights": ["Started the company"]
     },
     {
@@ -242,6 +244,7 @@
   ],
   "projects": [
     {
+      "id": 1,
       "name": "Autonomator",
       "isActive": true,
       "description": "Web app para crear facturas simples de nicho. Creado con SvelteKit y express es un proyecto de aprendizaje que resuelve un problema real ",
@@ -249,11 +252,14 @@
         "Login",
         "Base de datos",
         "En desarrollo",
-        "Trabajo conjunto"
+        "Trabajo conjunto",
+        "Svelte.js"
       ],
-      "url": "https://autonomator.es/"
+      "url": "https://autonomator.es/",
+      "image": "/img/bg-projects.webp"
     },
     {
+      "id": 2,
       "name": "Las Vegas",
       "isActive": true,
       "description": "Creada con Vue.js, llevo mas de dos años dando soporte y actualizaciones a este proyecto.",
@@ -262,26 +268,37 @@
         "Automatización",
         "Vue.js, scss, pasarela de pago"
       ],
-      "url": "https://lasvegascafeteria.es"
+      "url": "https://lasvegascafeteria.es",
+      "image": "/img/bg-projects_1.webp"
     },
     {
-      "name": "Trazos_",
+      "id": 3,
+      "name": "Conversor",
       "isActive": true,
-      "description": "Scripts de automatización para agilizar procesos repetitivos dentro de las necesidades de la empresa",
-      "highlights": ["Node.js", "github", "Wordpress"],
-      "url": "https://github.com/Escuela-Trazos"
+      "description": "Api para cambiar el tamaño y la resolución de imagenes",
+      "highlights": ["Node.js", "github", "React.js", "Express.js", "Next.js"],
+      "url": "https://image-converter-trazos-front.pages.dev/",
+      "image": "/img/bg-projects_3.webp"
     },
     {
+      "id": 4,
       "name": "Freelance",
       "isActive": false,
       "description": "Recopilación de los trabajos realizados durante mi vida como freelance",
-      "highlights": [
-        "Desarrollo web",
-        "Diseño de interfaces",
-        "diseño gráfico"
-      ],
+      "highlights": ["Vue.js", "Diseño de interfaces", "diseño gráfico"],
       "url": "https://github.com/DebordCompany",
-      "github": "https://github.com/DebordCompany"
+      "github": "https://github.com/DebordCompany",
+      "image": "/img/bg-projects_2.webp"
+    },
+    {
+      "id": 5,
+      "name": "Pildoras Culinarias",
+      "isActive": true,
+      "description": "Este proyecto es un blog personal de recetas y consejos de cocina.",
+      "highlights": ["React.js", "Wordpress", "Headless"],
+      "url": "https://pildorasculinarias.com/",
+      "github": "https://github.com/DebordCompany",
+      "image": "/img/pildoras.webp"
     }
   ]
 }

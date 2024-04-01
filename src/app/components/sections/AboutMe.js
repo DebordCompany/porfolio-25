@@ -1,28 +1,14 @@
-"use client";
-import { useState } from "react";
-
-export function AboutMe({ aboutMe }) {
-  const [show, setShow] = useState(true);
-  function showMore() {
-    setShow(!show);
-  }
+export function AboutMe({ title, aboutMe }) {
   return (
     <>
-      <div
-        className={`grid grid-cols-1 md:grid-cols-3 gap-3 my-4 md:h-fit  text-ellipsis ${
-          !show ? "" : "h-40 overflow-hidden"
-        }`}
-      >
-        {aboutMe.map((element) => {
-          return <p key={element}>{element}</p>;
+      <p className="text-xl font-black">{title}</p>
+      <div className="grid grid-cols-1 gap-3 pt-4">
+        {aboutMe.map((element, index) => {
+          return (
+            <p key={index} dangerouslySetInnerHTML={{ __html: element }}></p>
+          );
         })}
       </div>
-      <button
-        className={`underline md:hidden ${show ? "" : "hidden"}`}
-        onClick={showMore}
-      >
-        ver más...
-      </button>
     </>
   );
 }

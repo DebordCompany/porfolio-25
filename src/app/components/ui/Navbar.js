@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { Menu } from "./ui/Menu";
-import { MenuNav } from "./ui/MenuNav";
+import { Menu } from "./Menu";
+import { MenuNav } from "./MenuNav";
 
 export function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -10,9 +10,12 @@ export function Navbar() {
   function toggle() {
     setMenu(!menu);
   }
+  function hiddeMenu() {
+    setMenu(!menu);
+  }
   return (
-    <header className="mb-8 sticky top-0 w-full bg-[#303030]">
-      <nav className=" px-8 py-6 flex justify-between shadow-2xl">
+    <header className="mb-8 sticky top-0 w-full bg-[#303030] print:hidden">
+      <nav className=" px-8 py-6 flex justify-between shadow-2xl max-w-3xl m-auto">
         <div>
           <h3>
             <Link href="/">Debord Company</Link>
@@ -22,7 +25,7 @@ export function Navbar() {
           <Menu />
         </div>
       </nav>
-      <div className={menu ? "" : "hidden"}>
+      <div onClick={hiddeMenu} className={menu ? "" : "hidden"}>
         <MenuNav />
       </div>
     </header>

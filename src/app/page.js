@@ -1,14 +1,27 @@
 import data from "@/lib/data/data.json";
+import Hero from "@/app/components/sections/Hero";
 import { AboutMe } from "./components/sections/AboutMe";
+import Contact from "./components/sections/Contact";
+import { Projects } from "./components/sections/Projects";
+import Skills from "./components/sections/Skills";
 export default function Home() {
   return (
-    <main className="">
-      <h1 className="text-6xl font-black mb-2">{data.home.title}</h1>
-      <h2 className="text-sm font-thin">{data.home.subtitle}</h2>
-      <section className="my-4">
-        <p className="text-xl font-black">¿Quien soy?</p>
-        <AboutMe aboutMe={data.home.aboutMe} />
-      </section>
-    </main>
+    <section className="flex flex-col items-stretch gap-4 ">
+      <article className="pt-5">
+        <Hero title={data.home.title} />
+      </article>
+      <article className="pt-5">
+        <AboutMe aboutMe={data.basics.summary} title={"Quien soy?"} />
+      </article>
+      <article className="pt-5">
+        <Projects projects={data.projects} />
+      </article>
+      <article className="pt-5">
+        <Skills info={data.skills} />
+      </article>
+      <article className="pt-5" id="contact">
+        <Contact data={data.basics} />
+      </article>
+    </section>
   );
 }

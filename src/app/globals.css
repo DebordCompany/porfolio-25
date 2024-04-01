@@ -11,7 +11,9 @@
     rgba(48, 48, 48, 1) 100%
   );
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
   color: var(--text-color);
   background: rgb(16, 16, 16);

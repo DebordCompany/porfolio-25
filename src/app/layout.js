@@ -1,9 +1,18 @@
-import { Navbar } from "@/app/components/Navbar";
-import { Footer } from "@/app/components/Footer";
+import { Navbar } from "@/app/components/ui/Navbar";
+import { Footer } from "@/app/components/sections/Footer";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import { IBM_Plex_Mono } from "next/font/google";
 
-const montserrat = Montserrat({ weight: "400", subsets: ["latin"] });
+const ibm = IBM_Plex_Mono({
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+});
+
+const montserrat = Montserrat({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Debord Company || Porfolio personal de Mario Sanz",
@@ -13,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
+      <body className={ibm.className}>
         <Navbar />
         <main className="max-w-3xl px-8 min-h-[80dvh] m-auto">{children}</main>
         <Footer />
