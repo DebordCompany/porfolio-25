@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={ibm.className}>
+      <body className={`print:bg-white ${ibm.className}`}>
         <Navbar />
         <main className="max-w-3xl px-8 min-h-[80dvh] m-auto">{children}</main>
         <Footer />
