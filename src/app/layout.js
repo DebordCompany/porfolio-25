@@ -24,7 +24,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`print:bg-white ${ibm.className}`}>
         <Navbar />
-        <main className="max-w-3xl px-8 min-h-[80dvh] m-auto">{children}</main>
+        <main className="max-w-3xl px-8 min-h-[80dvh] m-auto print:bg-white">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

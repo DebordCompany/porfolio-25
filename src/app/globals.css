@@ -10,6 +10,12 @@
     rgba(32, 32, 32, 1) 50%,
     rgba(48, 48, 48, 1) 100%
   );
+  --background-print: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 * {
   box-sizing: border-box;
@@ -18,8 +24,12 @@ body {
   color: var(--text-color);
   background: rgb(16, 16, 16);
   background: var(--background);
-  /* background-repeat: no-repeat; */
   min-height: 100dvh;
+}
+@media print {
+  body {
+    background: var(--background-print);
+  }
 }
 
 @layer utilities {
