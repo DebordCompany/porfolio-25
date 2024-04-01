@@ -5,5 +5,5 @@ const ibm = IBM_Plex_Mono({
   subsets: ["latin"],
 });
 export default function CvLayout({ children }) {
-  return <main className={ibm.className}>{children}</main>;
+  return <main className={`print:bg-white ${ibm.className}`}>{children}</main>;
 }
