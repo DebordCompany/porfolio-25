@@ -46,7 +46,9 @@ export default function Contact({ data }) {
           </div>
           <div className="flex items-center gap-2">
             <p>Telefono: </p>
-            <p>{data.phone}</p>
+            <p>
+              <a href={`tel:${data.phone}`}>{data.phone}</a>
+            </p>
           </div>
         </article>
       </section>
