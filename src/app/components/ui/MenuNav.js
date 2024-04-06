@@ -12,12 +12,7 @@ export function MenuNav() {
         <Link href="/#contact">Contacto</Link>
       </li>
       <li>
-        <a
-          target="_blank"
-          href="https://image-converter-trazos-front.pages.dev/"
-        >
-          Conversor
-        </a>
+        <Link href="/conversor">Conversor</Link>
       </li>
     </ul>
   );
