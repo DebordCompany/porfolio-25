@@ -9,7 +9,7 @@ export function MenuNav() {
         <Link href="/cv">Curriculum</Link>
       </li>
       <li>
-        <Link href="#contact">Contacto</Link>
+        <Link href="/#contact">Contacto</Link>
       </li>
       <li>
         <a
