@@ -10,7 +10,7 @@ export default function InputConversor({
       <label htmlFor="" className="flex flex-col gap-2">
         {lable}
         <input
-          className={`bg-inherit border-2 border-black py-1 px-2  ${classProp}`}
+          className={`bg-inherit border-2 border-white py-1 px-2  ${classProp}`}
           type={type}
           value={value}
           placeholder={placeholder}

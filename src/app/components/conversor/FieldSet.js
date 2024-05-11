@@ -8,22 +8,26 @@ export default function FieldSet() {
           lable={"Resolución"}
           placeholder={"Resolución"}
         />
-        <select
-          name=""
-          id=""
-          className="bg-transparent border-2 border-black w-full py-1 px-2"
-        >
-          <option value="webp" selected>
-            WEBP
-          </option>
-          <option value="png">PNG</option>
-          <option value="jpg">JPG</option>
-        </select>
-        <InputConversor
-          type={"submit"}
-          value={"Enviar"}
-          classProp={"bg-black"}
-        />
+        <label>
+          Formato
+          <select
+            name=""
+            id=""
+            className="bg-transparent border-2 border-white w-full py-1 px-2 mt-2"
+            defaultValue={"webp"}
+          >
+            <option value="webp">WEBP</option>
+            <option value="png">PNG</option>
+            <option value="jpg">JPG</option>
+          </select>
+        </label>
+        <div className="mt-10">
+          <InputConversor
+            type={"submit"}
+            value={"Enviar"}
+            classProp={"bg-white text-black md:w-fit md:px-10"}
+          />
+        </div>
       </fieldset>
     </>
   );
