@@ -12,6 +12,15 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        horizontal: "spin 1s ease-in-out infinite alternate",
+      },
+      keyframes: {
+        spin: {
+          "0%": { transform: "translateX(60px)" },
+          "100%": { transform: "translateX(-60px)" },
+        },
+      },
     },
   },
   plugins: [],

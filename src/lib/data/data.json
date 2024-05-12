@@ -277,7 +277,7 @@
       "isActive": true,
       "description": "Api para cambiar el tamaño y la resolución de imagenes",
       "highlights": ["Node.js", "github", "React.js", "Express.js", "Next.js"],
-      "url": "https://image-converter-trazos-front.pages.dev/",
+      "url": "/conversor",
       "image": "/img/bg-projects_3.webp"
     },
     {

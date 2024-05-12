@@ -37,3 +37,30 @@ body {
     text-wrap: balance;
   }
 }
+.file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+
+.file-input label {
+  position: relative;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+@media (min-width: 768px) {
+  .file-input label {
+    max-width: fit-content;
+  }
+}
+input:hover + label,
+input:focus + label {
+  transform: scale(1.02);
+}

@@ -11,27 +11,27 @@ export function Projects({ projects }) {
               key={element.id}
               style={{ backgroundImage: `url(${element.image})` }}
             >
-              <h3 className="text-xl font-bold">{element.name}</h3>
-              <p>{element.description}</p>
-              <div className="flex items-center flex-wrap gap-1 items-stretch">
-                {element.highlights.map((high, index) => {
-                  return (
-                    <p
-                      className="bg-gray-700 w-fit text-xs py-1 px-4 rounded-full"
-                      key={index}
-                    >
-                      {high}
-                    </p>
-                  );
-                })}
-              </div>
-              <div className="pt-4">
-                <button className="text-left border-white border-2 w-fit py-1 px-4 rounded-sm">
-                  <a href={element.url} target="_blank">
+              <a href={element.url} target="_blank">
+                <h3 className="text-xl font-bold">{element.name}</h3>
+                <p>{element.description}</p>
+                <div className="flex items-center flex-wrap gap-1 items-stretch">
+                  {element.highlights.map((high, index) => {
+                    return (
+                      <p
+                        className="bg-gray-700 w-fit text-xs py-1 px-4 rounded-full"
+                        key={index}
+                      >
+                        {high}
+                      </p>
+                    );
+                  })}
+                </div>
+                <div className="pt-4">
+                  <button className="text-left border-white border-2 w-fit py-1 px-4 rounded-sm">
                     Visitar
-                  </a>
-                </button>
-              </div>
+                  </button>
+                </div>
+              </a>
             </article>
           );
         })}
