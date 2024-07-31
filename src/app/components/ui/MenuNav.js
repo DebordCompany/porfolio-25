@@ -14,6 +14,9 @@ export function MenuNav() {
       <li>
         <Link href="/conversor">Conversor</Link>
       </li>
+      <li>
+        <Link href="/design">Design</Link>
+      </li>
     </ul>
   );
 }

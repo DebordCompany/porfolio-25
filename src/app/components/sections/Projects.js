@@ -15,14 +15,13 @@ export function Projects({ projects }) {
                 <h3 className="text-xl font-bold">{element.name}</h3>
                 <p>{element.description}</p>
                 <div className="flex items-center flex-wrap gap-1 items-stretch">
-                  {element.highlights.map((high, index) => {
+                  {element.highlights.map((high, i) => {
                     return (
-                      <p
-                        className="bg-gray-700 w-fit text-xs py-1 px-4 rounded-full"
-                        key={index}
-                      >
-                        {high}
-                      </p>
+                      <div key={i}>
+                        <p className="bg-gray-700 w-fit text-xs py-1 px-4 rounded-full">
+                          {high}
+                        </p>
+                      </div>
                     );
                   })}
                 </div>

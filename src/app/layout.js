@@ -21,8 +21,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`print:bg-white ${ibm.className}`}>
+    <html lang="es">
+      <body className={`print:bg-white bg-neutral-950 ${ibm.className}`}>
         <Navbar />
         <main className="max-w-3xl px-8 min-h-[80dvh] m-auto print:bg-white">
           {children}

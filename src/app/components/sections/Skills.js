@@ -6,11 +6,12 @@ export default function Skills({ info }) {
       <ul className="flex flex-wrap gap-2 pt-4">
         {info.map((element, index) => {
           return (
-            <>
-              <li className="py-1 px-3 bg-slate-100 text-black rounded-full text-xs">
-                {element.name}
-              </li>
-            </>
+            <li
+              className="py-1 px-3 bg-slate-100 text-black rounded-full text-xs hover:bg-amber-500 transition-colors"
+              key={index}
+            >
+              {element.name}
+            </li>
           );
         })}
       </ul>

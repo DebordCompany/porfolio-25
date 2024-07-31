@@ -64,3 +64,13 @@ input:hover + label,
 input:focus + label {
   transform: scale(1.02);
 }
+.list::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  background-color: var(--text-color);
+  height: 4px;
+  width: 4px;
+  border-radius: 10px;
+}

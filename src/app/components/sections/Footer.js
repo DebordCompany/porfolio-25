@@ -8,10 +8,7 @@ export function Footer() {
         <Link className="underline text-sm" href={"/cv"}>
           Curriculum
         </Link>
-        <a
-          className="underline text-sm"
-          href="https://image-converter-trazos-front.pages.dev/"
-        >
+        <a className="underline text-sm" href="/conversor">
           Image conversor
         </a>
       </section>
