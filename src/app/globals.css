@@ -74,3 +74,12 @@ input:focus + label {
   width: 4px;
   border-radius: 10px;
 }
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+p::selection {
+  background-color: rgb(89, 135, 188);
+}

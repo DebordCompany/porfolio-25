@@ -14,7 +14,7 @@ export function Navbar() {
     setMenu(!menu);
   }
   return (
-    <header className="mb-8 sticky top-0 w-full bg-[#303030] print:hidden">
+    <header className="mb-8 sticky z-10 top-0 w-full bg-[#303030] print:hidden">
       <nav className=" px-8 py-6 flex justify-between shadow-2xl max-w-3xl m-auto">
         <div>
           <h3>

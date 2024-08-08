@@ -22,7 +22,6 @@ export default function Title({
     return element.component === variant;
   });
   if (level === "h1" || "h2" || "h3" || "h4" || "h5" || "h6") {
-    console.log("he entrado");
     return react.createElement(
       level,
       {

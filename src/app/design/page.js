@@ -3,6 +3,7 @@ import Text from "../components/design/Text";
 import Pre from "../components/design/Pre";
 import List from "../components/design/List";
 import Separator from "../components/design/Separator";
+import SubHeader from "../components/design/sections/SubHeader";
 const requisites = ["React (16)", "Tailwind", "Node.js"];
 const code = `<Title level="p" variant="h1" className="text-white">
     Etiqueta "p" con apariencia de h1
@@ -92,6 +93,9 @@ export default function Design() {
               atractivas y funcionales se convierte en una tarea más sencilla y
               eficaz.
             </Text>
+          </div>
+          <div>
+            <SubHeader />
           </div>
         </div>
       </main>
