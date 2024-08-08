@@ -1,8 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { ReactNode, useState } from "react";
 
-export default function Pre({ children, heigth }) {
+export default function Pre({
+  children,
+  heigth,
+}: {
+  children: string;
+  heigth?: number;
+}) {
   const [copy, setCopy] = useState(false);
   const heigthCode = [{ id: 1, className: "min-h-30" }];
   const minHeigth = heigthCode.find((element) => element.id === heigth);

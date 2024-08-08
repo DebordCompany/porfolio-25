@@ -7,10 +7,10 @@ import getInitial from "@/lib/api/getInitial";
 import Wait from "../components/ui/Wait";
 import FileInput from "../components/ui/FileInput";
 export default function Conversor() {
-  const [files, setFiles] = useState();
-  const [resolution, setResolution] = useState(1200);
+  const [files, setFiles] = useState<FileList>();
+  const [resolution, setResolution] = useState<number>(1200);
   const [format, setFormat] = useState("webp");
-  const [wait, setWait] = useState(false);
+  const [wait, setWait] = useState<Boolean>(false);
   const [successSend, setSuccessSend] = useState(false);
   const [failProcess, setFailProcess] = useState(false);
   const [initial, setInitial] = useState(true);
@@ -28,7 +28,7 @@ export default function Conversor() {
   async function submit(event) {
     event.preventDefault();
     const dataForm = new FormData();
-    dataForm.append("resolution", resolution);
+    dataForm.append("resolution", resolution.toString());
     dataForm.append("format", format);
     for (let i = 0; i < 10; i++) {
       dataForm.append("files", files[i]);

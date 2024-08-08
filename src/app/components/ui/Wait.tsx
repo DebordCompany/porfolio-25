@@ -1,6 +1,17 @@
+import { FC } from "react";
 import Loading from "./Loading";
 
-export default function Wait({ message, button, buttonText, animation }) {
+export default function Wait({
+  message,
+  button,
+  buttonText,
+  animation,
+}: {
+  message?: string;
+  button?: () => void;
+  buttonText?: string;
+  animation?: boolean;
+}) {
   function buttonEmiter() {
     button();
   }

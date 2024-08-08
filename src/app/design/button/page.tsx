@@ -1,3 +1,4 @@
+"use client";
 import Hero from "@/app/components/design/sections/Hero";
 import Separator from "@/app/components/design/Separator";
 import Button from "@/app/components/design/Button";
@@ -12,9 +13,7 @@ export default function ButtonPage() {
         }
       />
       <Separator />
-      <Button outline rounded>
-        Soy un boton
-      </Button>
+      <Button> soy un boton</Button>
     </>
   );
 }
