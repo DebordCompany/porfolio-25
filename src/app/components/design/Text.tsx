@@ -1,11 +1,15 @@
-import { ReactNode } from "react";
+import { FC, HtmlHTMLAttributes } from "react";
+import { twMerge } from "tailwind-merge";
 
-export default function Text({
+const Text: FC<HtmlHTMLAttributes<HTMLParagraphElement>> = ({
   children,
   className,
-}: {
-  children: ReactNode;
-  className?: string;
-}) {
-  return <p className={className}>{children}</p>;
-}
+  ...props
+}) => {
+  return (
+    <p {...props} className={twMerge("text-pretty", className)}>
+      {children}
+    </p>
+  );
+};
+export default Text;

@@ -13,7 +13,14 @@ export default function ButtonPage() {
         }
       />
       <Separator />
-      <Button> soy un boton</Button>
+      <Button
+        className="bg-yellow-5"
+        onClick={() => console.log("hago click")}
+        colors="default"
+        variant="outline"
+      >
+        soy un boton
+      </Button>
     </>
   );
 }

@@ -83,3 +83,6 @@ h6::selection,
 p::selection {
   background-color: rgb(89, 135, 188);
 }
+.shadow-vintage {
+  box-shadow: 6px 6px 0px rgba(234 179 8 / var(--tw-bg-opacity));
+}
