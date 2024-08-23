@@ -75,7 +75,7 @@ export default function Conversor() {
           "El poder de la conversión en tus manos: fácil, rápido y con calidad insuperable."
         }
       />
-      {initial && <Wait message={"Iniciando: 1 Min"} animation />}
+      {initial && <Wait message={"Iniciando: Aprox 1 Min"} animation />}
       {wait && <Wait message={"Procesando imagenes"} animation />}
       {successSend && (
         <Wait
@@ -91,7 +91,7 @@ export default function Conversor() {
           <label className="flex flex-col gap-2">
             Resolución
             <input
-              className="bg-transparent border-2 border-white py-1 px-2"
+              className="bg-transparent border-2 border-neutral-800 dark:border-neutral-50 py-1 px-2"
               type="number"
               placeholder="Resolución"
               onChange={getRes}
@@ -102,7 +102,7 @@ export default function Conversor() {
             <select
               name=""
               id=""
-              className="bg-transparent border-2 border-white w-full py-1 px-2 mt-2"
+              className="bg-transparent border-2 border-neutral-800 dark:border-neutral-50 w-full py-1 px-2 mt-2"
               defaultValue={"webp"}
               onChange={getFormat}
             >
@@ -114,7 +114,7 @@ export default function Conversor() {
           <FileInput customEmiter={getFiles} />
           <input
             type="submit"
-            className="bg-white py-1 px-2 text-black md:w-fit md:px-10 mt-10 hover:scale-[1.02] transition-all border-2 border-white hover:bg-neutral-800 hover:text-white hover:font-bold"
+            className="bg-neutral-800 dark:bg-neutral-50 text-neutral-50 py-1 px-2 dark:text-neutral-800 md:w-fit md:px-10 mt-10 hover:scale-[1.02] transition-all border-2 border-neutral-800 dark:border-neutral-50 hover:dark:bg-neutral-800 hover:dark:border-neutral-50 hover:dark:text-white hover:font-bold hover:bg-transparent hover:border-neutral-800 hover:text-neutral-800"
           />
         </fieldset>
       </form>

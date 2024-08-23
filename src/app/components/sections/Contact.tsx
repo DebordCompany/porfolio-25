@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 export default function Contact({ data }) {
   function copyLink() {
@@ -12,7 +13,11 @@ export default function Contact({ data }) {
             {data.profiles.map((element, index) => {
               return (
                 <li key={index} className="w-fit">
-                  <a href={element.url} target="_blank">
+                  <a
+                    href={element.url}
+                    target="_blank"
+                    className="filter invert-[1] dark:filter-none"
+                  >
                     <img
                       className="w-8"
                       src={element.network}
