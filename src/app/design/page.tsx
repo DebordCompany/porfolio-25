@@ -3,24 +3,9 @@ import Text from "../components/design/Text";
 import Pre from "../components/design/Pre";
 import List from "../components/design/List";
 import Separator from "../components/design/Separator";
-import SubHeader from "../components/design/sections/SubHeader";
+import FooterHeader from "../components/design/sections/FooterHeader";
+import { codeExampleTitle } from "@/lib/data/code";
 const requisites = ["React (16)", "Tailwind", "Node.js"];
-const code = `<Title level="p" variant="h1" className="text-white">
-    Etiqueta "p" con apariencia de h1
-</Title>
-<Title level="h1" variant="h2" className="text-amber-100">
-    Etiqueta "h1" con apariencia de h3
-</Title>
-<Title level="h4" variant="h3" className="text-amber-300">
-    Etiqueta "h4" con apariencia de h3
-</Title>
-<Title level="h3" variant="h4" className="text-amber-500">
-    Etiqueta "h3" con apariencia de h4
-</Title>
-<Title level="h6" variant="h5" className="text-amber-700">
-    Etiqueta "h6" con apariencia de h5
-</Title>
-`;
 
 export default function Design() {
   return (
@@ -52,24 +37,24 @@ export default function Design() {
             componentes en tu aplicación React. Aquí tienes un ejemplo básico de
             como usar el componente Title
           </Text>
-          <Pre>{code}</Pre>
+          <Pre>{codeExampleTitle}</Pre>
           <div>
             <Title level="p">este es el resultado:</Title>
             <Separator />
             <div className="flex flex-col gap-3">
-              <Title level="p" variant="h1" className="text-white">
+              <Title level="p" variant="h1" className="text-neutral-800">
                 Etiqueta {"p"} con apariencia de h1
               </Title>
-              <Title level="h1" variant="h2" className="text-amber-100">
+              <Title level="h1" variant="h2" className="text-amber-700">
                 Etiqueta {"h1"} con apariencia de h3
               </Title>
-              <Title level="h4" variant="h3" className="text-amber-300">
+              <Title level="h4" variant="h3" className="text-amber-500">
                 Etiqueta {"h4"} con apariencia de h3
               </Title>
-              <Title level="h3" variant="h4" className="text-amber-500">
+              <Title level="h3" variant="h4" className="text-amber-300">
                 Etiqueta {"h3"} con apariencia de h4
               </Title>
-              <Title level="h6" variant="h5" className="text-amber-700">
+              <Title level="h6" variant="h5" className="text-amber-200">
                 Etiqueta {"h6"} con apariencia de h5
               </Title>
             </div>
@@ -95,7 +80,7 @@ export default function Design() {
             </Text>
           </div>
           <div>
-            <SubHeader />
+            <FooterHeader />
           </div>
         </div>
       </main>
