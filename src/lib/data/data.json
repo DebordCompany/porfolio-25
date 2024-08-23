@@ -218,6 +218,28 @@
         "SSR",
         "Static Generation"
       ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Astro.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
     }
   ],
   "languages": [
@@ -262,9 +284,9 @@
       "id": 2,
       "name": "Las Vegas",
       "isActive": true,
-      "description": "Creada con Vue.js, llevo mas de dos años dando soporte y actualizaciones a este proyecto.",
+      "description": "Creada con Vue.js, migrada a Astro, llevo mas de dos años dando soporte y actualizaciones a este proyecto, facilitando tareas rutinarias.",
       "highlights": [
-        "Diseño responsive",
+        "Astro.js",
         "Automatización",
         "Vue.js, scss, pasarela de pago"
       ],
@@ -275,8 +297,8 @@
       "id": 3,
       "name": "Conversor",
       "isActive": true,
-      "description": "Api para cambiar el tamaño y la resolución de imagenes",
-      "highlights": ["Node.js", "github", "React.js", "Express.js", "Next.js"],
+      "description": "Surgió como un proyecto de empresa esta Api para cambiar el tamaño y la resolución de imagenes",
+      "highlights": ["Node.js", "github", "React.js", "Express.js"],
       "url": "/conversor",
       "image": "/img/bg-projects_3.webp"
     },
@@ -294,8 +316,8 @@
       "id": 5,
       "name": "Pildoras Culinarias",
       "isActive": true,
-      "description": "Este proyecto es un blog personal de recetas y consejos de cocina.",
-      "highlights": ["React.js", "Wordpress", "Headless"],
+      "description": "Este proyecto es un blog personal de recetas y consejos de cocina. Aquí recopilo mi otra pasión, la cocina.",
+      "highlights": ["React.js", "Wordpress", "Headless", "Next.js"],
       "url": "https://pildorasculinarias.com/",
       "github": "https://github.com/DebordCompany",
       "image": "/img/pildoras.webp"
