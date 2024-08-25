@@ -2,9 +2,8 @@
 import { ButtonHTMLAttributes, FC, ReactNode } from "react";
 import cn from "@/lib/utils/components";
 import { cva, type VariantProps } from "class-variance-authority";
-import { Span } from "next/dist/trace";
 
-const buttonVariants = cva(
+export const buttonVariants = cva(
   "px-6 py-1 uppercase transition-all flex gap-2 items-center hover:scale-[1.03] text-[14px]",
   {
     variants: {
@@ -22,7 +21,7 @@ const buttonVariants = cva(
       variant: {
         line: "border-current border-2  bg-transparent dark:bg-transparent",
         basic: "rounded-none border-none bg-transparent dark:bg-transparent",
-        fill: "text-neutral-50 dark:text-neutral-50",
+        fill: "text-neutral-50 dark:text-neutral-800",
         vintage:
           "border-2 border-current hover:shadow-none bg-transparent dark:bg-transparent shadow-vintage",
       },
@@ -34,13 +33,16 @@ const buttonVariants = cva(
         pill: "rounded-full",
       },
     },
+    compoundVariants: [
+      { colors: "white", variant: "fill", className: "text-neutral-800" },
+    ],
     defaultVariants: {
       colors: "default",
       variant: "basic",
     },
   }
 );
-interface ButtonProps
+export interface ButtonProps
   extends ButtonHTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof buttonVariants> {
   icon?: ReactNode;
