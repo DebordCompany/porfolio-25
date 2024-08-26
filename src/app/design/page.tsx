@@ -32,7 +32,7 @@ export default function Design() {
           <Pre>npm install debord-design</Pre>
           <Title level="h3">Estilos:</Title>
           <Text>Añade esta linea al archivo principal de css</Text>
-          <Pre>@import "debord-design/dist/style.css";</Pre>
+          <Pre>{`@import "debord-design/dist/style.css";`}</Pre>
         </div>
         <div className="flex flex-col gap-6">
           <Title level="h2">uso basico:</Title>
