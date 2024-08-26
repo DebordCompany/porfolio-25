@@ -22,11 +22,11 @@ export default function Pre({
   return (
     <div className={`flex flex-col gap-2 `} onClick={copyText}>
       <div
-        className={`p-6 bg-neutral-950 rounded-lg shadow-lg overflow-scroll min-w-full max-h-52  ${
+        className={`p-6 bg-neutral-950 rounded-lg shadow-lg overflow-auto min-w-full max-h-52  ${
           heigth ? minHeigth.className : ""
         }`}
       >
-        <pre className="overflow-scroll h-full relative">
+        <pre className="h-full relative">
           <div className="flex justify-end absolute top-0 w-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
