@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "debord-design/dist/style.css";
+@import url("../lib/assests/animations.css");
 
 :root {
   --text-color: #f4f4f4;
@@ -73,6 +75,25 @@ p::selection {
 }
 .shadow-debord {
   box-shadow: 0px 0px 10px 1px #33333320;
+}
+
+div::-webkit-scrollbar {
+  width: 10px;
+}
+
+div::-webkit-scrollbar-track {
+  background: #0a0a0a;
+  border-radius: 10px;
+}
+
+div::-webkit-scrollbar-thumb {
+  background: #575757;
+  border-radius: 10px;
+}
+@supports not selector(::-webkit-scrollbar) {
+  div {
+    scrollbar-color: #575757 #0a0a0a;
+  }
 }
 @media (prefers-color-scheme: dark) {
   .file-input label {
