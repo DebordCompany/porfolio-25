@@ -16,6 +16,10 @@ export const Separator: FC<SeparatorTypes> = ({
     { id: 4, value: "pt-6" },
     { id: 5, value: "pt-8" },
     { id: 6, value: "pt-12" },
+    { id: 7, value: "pt-16" },
+    { id: 8, value: "pt-20" },
+    { id: 9, value: "pt-24" },
+    { id: 10, value: "pt-32" },
   ];
   function getHeight() {
     const result = spaces.find((item) => item.id === height);
