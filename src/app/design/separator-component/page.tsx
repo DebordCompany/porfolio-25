@@ -24,9 +24,9 @@ export default function SeparatorPage() {
       <Text>A continuación te muestro un ejemplo visual de como funciona</Text>
       <Separator />
       <div className="grid grid-cols-1 gap-4">
-        {separators.map((item) => {
+        {separators.map((item, index) => {
           return (
-            <div>
+            <div key={index}>
               <span>Height: {item}</span>
               <div className="border-2 border-amber-500 rounded-sm">
                 <Separator height={item} />
