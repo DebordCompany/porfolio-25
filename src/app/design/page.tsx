@@ -1,4 +1,4 @@
-import Title from "../components/design/Title";
+import { Title } from "../components/design/Title";
 import Text from "../components/design/Text";
 import Pre from "../components/design/Pre";
 import List from "../components/design/List";

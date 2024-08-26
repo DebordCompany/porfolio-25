@@ -1,4 +1,4 @@
-import Title from "@/app/components/design/Title";
+import { Title } from "@/app/components/design/Title";
 import Text from "@/app/components/design/Text";
 import { Separator } from "@/app/components/design/Separator";
 

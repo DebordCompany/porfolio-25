@@ -1,11 +1,15 @@
-import react from "react";
+import react, { FC, HTMLAttributes, ReactHTMLElement } from "react";
 
-export default function Title({
+export interface TitleProps extends HTMLAttributes<HTMLHeadingElement> {
+  level?: string;
+  variant?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p";
+}
+export const Title: FC<TitleProps> = ({
   children,
   level = "h1",
   variant = level,
   className = "",
-}) {
+}) => {
   const variants = [
     {
       component: "h1",
@@ -25,11 +29,11 @@ export default function Title({
     return react.createElement(
       level,
       {
-        className: `font-bold ${variantStyle.style} ${className}`,
+        className: `font-bold ${variantStyle?.style} ${className}`,
       },
       children
     );
   } else {
     return react.createElement("h1", null, children);
   }
-}
+};

@@ -1,4 +1,4 @@
-import Title from "@/app/components/design/Title";
+import { Title } from "@/app/components/design/Title";
 
 export default function TitleComponentPage() {
   return (
