@@ -1,4 +1,3 @@
-"use client";
 import { ButtonHTMLAttributes, FC, ReactNode } from "react";
 import cn from "@/lib/utils/components";
 import { cva, type VariantProps } from "class-variance-authority";
