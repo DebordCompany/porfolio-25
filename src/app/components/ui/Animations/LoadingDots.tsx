@@ -1,4 +1,4 @@
-export default function Loading() {
+export default function LoadingDots() {
   return (
     <>
       <div className="flex justify-center m-5">
