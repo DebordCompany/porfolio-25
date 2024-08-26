@@ -1,4 +1,14 @@
-export default function Separator({ height = 4, className = "" }) {
+import { FC, PropsWithChildren } from "react";
+export interface SeparatorTypes extends PropsWithChildren {
+  height?: number;
+  className?: string;
+}
+
+export const Separator: FC<SeparatorTypes> = ({
+  height = 4,
+  className = "",
+  ...props
+}) => {
   const spaces = [
     { id: 1, value: "pt-1" },
     { id: 2, value: "pt-2" },
@@ -11,5 +21,7 @@ export default function Separator({ height = 4, className = "" }) {
     const result = spaces.find((item) => item.id === height);
     return result?.value;
   }
-  return <div className={`w-full ${getHeight()} ${className}`}></div>;
-}
+  return (
+    <div {...props} className={`w-full ${getHeight()} ${className}`}></div>
+  );
+};

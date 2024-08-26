@@ -1,6 +1,6 @@
 "use client";
 import Hero from "@/app/components/design/sections/Hero";
-import Separator from "@/app/components/design/Separator";
+import { Separator } from "@/app/components/design/Separator";
 import Button from "@/app/components/design/Button";
 import Title from "@/app/components/design/Title";
 import Text from "@/app/components/design/Text";

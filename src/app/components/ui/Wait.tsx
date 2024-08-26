@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Loading from "./Loading";
+import LoadingDots from "./Animations/LoadingDots";
 
 export default function Wait({
   message,
@@ -28,7 +28,7 @@ export default function Wait({
               {buttonText}
             </button>
           )}
-          {animation && <Loading />}
+          {animation && <LoadingDots />}
         </div>
       </div>
     </>

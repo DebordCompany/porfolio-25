@@ -1,11 +1,12 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import TitleConversor from "../components/conversor/TitleConversor";
 import sendImages from "@/lib/api/sendImages";
 import getImages from "@/lib/api/getImages";
 import getInitial from "@/lib/api/getInitial";
 import Wait from "../components/ui/Wait";
 import FileInput from "../components/ui/FileInput";
+import LoadingApi from "../components/ui/LoadingApi";
 export default function Conversor() {
   const [files, setFiles] = useState<FileList>();
   const [resolution, setResolution] = useState<number>(1200);
@@ -69,13 +70,14 @@ export default function Conversor() {
   }, []);
   return (
     <>
+      {initial && <LoadingApi />}
+
       <TitleConversor
         title="Debord Image Conversor: Transforma Tus Imágenes"
         subtitle={
           "El poder de la conversión en tus manos: fácil, rápido y con calidad insuperable."
         }
       />
-      {initial && <Wait message={"Iniciando: Aprox 1 Min"} animation />}
       {wait && <Wait message={"Procesando imagenes"} animation />}
       {successSend && (
         <Wait
