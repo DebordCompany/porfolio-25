@@ -10,7 +10,8 @@ export default function SubHeader() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="">
+    <header className="pb-4">
+      <hr />
       <div className="flex gap-2 items-center" onClick={() => setOpen(!open)}>
         <p>Menú</p>
         <RightArrow transform={open} />
@@ -78,6 +79,7 @@ export default function SubHeader() {
           </nav>
         </div>
       )}
+      <hr />
     </header>
   );
 }
