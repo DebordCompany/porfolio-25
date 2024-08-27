@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         className={`print:bg-white  ${ibm.className} bg-white dark:bg-neutral-800 text-neutral-800 dark:text-neutral-50`}
       >
         <Navbar />
-        <main className="max-w-3xl px-8 min-h-[80dvh] m-auto print:bg-white">
+        <main className="max-w-5xl px-8 min-h-[80dvh] m-auto print:bg-white">
           {children}
         </main>
         <Footer />

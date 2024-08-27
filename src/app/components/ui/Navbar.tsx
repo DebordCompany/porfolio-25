@@ -15,7 +15,7 @@ export function Navbar() {
   }
   return (
     <header className="mb-8 sticky z-10 top-0 w-full bg-white dark:bg-neutral-800 print:hidden">
-      <nav className=" px-8 py-6 flex justify-between dark:shadow-2xl max-w-3xl m-auto">
+      <nav className=" px-8 py-6 flex justify-between dark:shadow-2xl max-w-5xl m-auto">
         <div>
           <h3>
             <Link href="/">Debord Company</Link>
