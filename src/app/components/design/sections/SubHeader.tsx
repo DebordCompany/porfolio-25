@@ -22,7 +22,7 @@ export default function SubHeader() {
           onClick={() => setOpen(false)}
           className="fixed w-full h-dvh flex justify-center items-center z-10 top-0 left-0 bg-opacity-20 bg-neutral-800 "
         >
-          <nav className=" rounded-lg shadow-debord dark:shadow-2xl dark:border-2 dark:border-white p-4 max-w-2xl   min-h-96 w-full z-20  bg-white dark:bg-neutral-800 flex flex-col justify-between">
+          <nav className="max-w-[90%] rounded-lg shadow-debord dark:shadow-2xl dark:border-2 dark:border-white p-4 md:max-w-2xl   min-h-96 w-full z-20  bg-white dark:bg-neutral-800 flex flex-col justify-between">
             <ul className="p-2 flex flex-col gap-6">
               <div>
                 <p className="font-bold mb-4 underline">Empezamos</p>
@@ -64,7 +64,7 @@ export default function SubHeader() {
               {data.basics.profiles.map((item) => {
                 return (
                   <div key={item.url}>
-                    <a href={item.url}>
+                    <a target="_blank" href={item.url}>
                       <img
                         src={item.network}
                         alt={item.username}
