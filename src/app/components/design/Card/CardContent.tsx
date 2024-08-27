@@ -1,3 +1,4 @@
+import cn from "@/lib/utils/components";
 import { FC, HtmlHTMLAttributes } from "react";
 
 export interface CardContentTypes extends HtmlHTMLAttributes<HTMLDivElement> {}
@@ -7,7 +8,7 @@ export const CardContent: FC<CardContentTypes> = ({
   ...props
 }) => {
   return (
-    <div {...props} className={`p-2 flex flex-col  gap-2 ${className}`}>
+    <div {...props} className={cn("flex flex-col ", className)}>
       {children}
     </div>
   );

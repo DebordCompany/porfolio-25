@@ -3,10 +3,18 @@ import { Title } from "@/app/components/design/Title";
 import Text from "@/app/components/design/Text";
 import { Separator } from "@/app/components/design/Separator";
 import TextBlock from "@/app/components/design/sections/TextBlock";
-import { Card } from "@/app/components/design/Card";
+import { Card } from "@/app/components/design/Card/Card";
 import { CardContent } from "@/app/components/design/Card/CardContent";
 import Button from "@/app/components/design/Button";
-
+import { CardMedia } from "@/app/components/design/Card/CardMedia";
+import { CardSpacing } from "@/app/components/design/Card/CardSpacing";
+const cards = [
+  "laksjdflkjasdf ldjfsadf lksjdf  sldkfj asldkfasd ñlkasdj alsdkfj asdflkj asdflkjasdf ",
+  "as",
+  "adsfasdf asdfasdf asd fasd",
+  "sdfsdfsdfa",
+  "asdf asdf asd fasd fas df sadf asdf a",
+];
 export default function TitleComponentPage() {
   return (
     <>
@@ -47,60 +55,30 @@ export default function TitleComponentPage() {
           "El **color del texto** dadas la gran variedad de colores que demandan los proyectos hemos decidido que se otorguen por **clases css** y asi dar soporte a todos los publicos.",
         ]}
       />
-      <div className="grid grid-cols-3 pt-12 gap-3">
-        <Card shadow="vintage">
-          <img
-            src="/img/2GoTours.webp"
-            alt=""
-            className="w-full aspect-video object-cover"
-          />
-          <CardContent className="flex flex-col justify-between ">
-            <Title variant="h3">Huevos rotos con jamon</Title>
-            <Text className="text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-              consectetur eligendi labore officia exercitationem neque!
-            </Text>
-            <Button variant="line">click</Button>
-          </CardContent>
-        </Card>
-        <Card shadow="vintage">
-          <img
-            src="/img/2GoTours.webp"
-            alt=""
-            className="w-full aspect-video object-cover"
-          />
-          <CardContent className="flex flex-col justify-between">
-            <div>
-              <Title variant="h3">
-                Sardina ahumada con reduccion de martini y miel
-              </Title>
-              <Text className="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                consectetur eligendi labore officia exercitationem neque!
-              </Text>
-            </div>
-            <Button variant="line">click</Button>
-          </CardContent>
-        </Card>
-        <Card shadow="vintage">
-          <img
-            src="/img/2GoTours.webp"
-            alt=""
-            className="w-full aspect-video object-cover"
-          />
-          <CardContent className="flex flex-col justify-between h-max">
-            <div>
-              <Title variant="h3">
-                Mollejas de cordero risoladas con su jugo
-              </Title>
-              <Text className="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                consectetur eligendi labore officia exercitationem neque!
-              </Text>
-            </div>
-            <Button variant="line">click</Button>
-          </CardContent>
-        </Card>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 pt-12 gap-4">
+        {cards.map((item) => {
+          return (
+            <Card key={item} shadow="extra" rounded="small">
+              <CardContent>
+                <CardMedia src="/img/autonomator.webp" />
+                <CardSpacing className="flex flex-col gap-4">
+                  <Title variant="h3">{item}</Title>
+                  <Text>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Adipisci corrupti expedita doloremque iusto corporis vel
+                    ullam. Qui, veniam laudantium distinctio optio voluptates
+                    totam explicabo itaque.
+                  </Text>
+                </CardSpacing>
+              </CardContent>
+              <CardSpacing>
+                <Button variant="fill" rounded="small">
+                  boton
+                </Button>
+              </CardSpacing>
+            </Card>
+          );
+        })}
       </div>
     </>
   );
