@@ -1,4 +1,4 @@
-import react, { FC, HTMLAttributes, ReactHTMLElement } from "react";
+import react, { FC, HTMLAttributes } from "react";
 
 export interface TitleProps extends HTMLAttributes<HTMLHeadingElement> {
   level?: string;
