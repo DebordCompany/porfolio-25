@@ -5,6 +5,7 @@ import RightArrow from "@/app/icons/RightArrow";
 import { components } from "@/lib/data/componetsHeader";
 import LinkIcon from "@/app/icons/LinkIcon";
 import data from "@/lib/data/data.json";
+import Link from "next/link";
 
 export default function SubHeader() {
   const [open, setOpen] = useState(false);
@@ -26,16 +27,16 @@ export default function SubHeader() {
               <div>
                 <p className="font-bold mb-4 underline">Empezamos</p>
                 <li className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <div className="shadow-debord p-2 rounded-lg dark:border dark:border-neutral-100">
-                    <a
-                      href={"/design"}
-                      className="flex justify-between items-center"
-                    >
+                  <Link
+                    href={"/design"}
+                    className="shadow-debord p-2 rounded-lg dark:border dark:border-neutral-100"
+                  >
+                    <p className="flex justify-between items-center">
                       Instalación
                       <LinkIcon />
-                    </a>
+                    </p>
                     <hr className="border-t-4 rounded-full" />
-                  </div>
+                  </Link>
                 </li>
               </div>
               <div>
@@ -43,19 +44,17 @@ export default function SubHeader() {
                 <li className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {components.map((item) => {
                     return (
-                      <div
+                      <Link
+                        href={item.route}
                         key={item.id}
                         className="shadow-debord p-2 rounded-lg dark:border dark:border-neutral-100"
                       >
-                        <a
-                          href={item.route}
-                          className="flex justify-between items-center"
-                        >
+                        <p className="flex justify-between items-center">
                           {item.name}
                           <LinkIcon />
-                        </a>
+                        </p>
                         <hr className="border-t-4 rounded-full" />
-                      </div>
+                      </Link>
                     );
                   })}
                 </li>
