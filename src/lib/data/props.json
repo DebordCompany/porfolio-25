@@ -1,0 +1,46 @@
+{
+  "button": {
+    "name": "Button",
+    "props": [
+      {
+        "name": "Color",
+        "values": [
+          "default",
+          "primary",
+          "secondary",
+          "white",
+          "error",
+          "warning",
+          "success"
+        ]
+      },
+      { "name": "Variant", "values": ["line", "basic", "fill", "vintage"] },
+      {
+        "name": "Rounded",
+        "values": ["small", "medium", "big", "extra", "pill"]
+      }
+    ],
+    "explain": "",
+    "relations": [{ "name": "Title", "route": "/design/title-component" }]
+  },
+  "title": {
+    "name": "Title",
+    "props": [
+      { "name": "Level", "values": ["h1", "h2", "h3", "h4", "h5", "h6", "p"] },
+      { "name": "Variant", "values": ["h1", "h2", "h3", "h4", "h5", "h6", "p"] }
+    ],
+    "explain": "",
+    "relations": [{ "name": "Button", "route": "/design/button-component" }]
+  },
+  "separator": {
+    "name": "Separator",
+    "props": [
+      {
+        "name": "Spaces",
+        "values": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      }
+    ],
+    "explain": "",
+    "relations": [{ "name": "Title", "route": "/design/title-component" }]
+  }
+}
