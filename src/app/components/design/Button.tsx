@@ -3,7 +3,7 @@ import cn from "@/lib/utils/components";
 import { cva, type VariantProps } from "class-variance-authority";
 
 export const buttonVariants = cva(
-  "px-6 py-1 uppercase transition-all flex gap-2 items-center hover:scale-[1.03] text-[14px]",
+  "px-6 py-1 uppercase transition-all flex gap-2 items-center hover:scale-[1.03] text-[14px] w-fit",
   {
     variants: {
       colors: {
