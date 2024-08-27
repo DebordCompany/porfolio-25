@@ -45,7 +45,6 @@ export interface ButtonProps
   extends ButtonHTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof buttonVariants> {
   icon?: ReactNode;
-  link?: string;
 }
 
 const Button: FC<ButtonProps> = ({
@@ -55,7 +54,6 @@ const Button: FC<ButtonProps> = ({
   variant,
   rounded,
   icon,
-  link,
   ...props
 }) => {
   return (
