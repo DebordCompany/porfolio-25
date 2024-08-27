@@ -1,13 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import { Title } from "@/app/components/design/Title";
-import Text from "@/app/components/design/Text";
 import { Separator } from "@/app/components/design/Separator";
 import TextBlock from "@/app/components/design/sections/TextBlock";
-import { Card } from "@/app/components/design/Card/Card";
-import { CardContent } from "@/app/components/design/Card/CardContent";
-import Button from "@/app/components/design/Button";
-import { CardMedia } from "@/app/components/design/Card/CardMedia";
-import { CardSpacing } from "@/app/components/design/Card/CardSpacing";
+import Props from "@/app/components/design/sections/Props";
+import data from "@/lib/data/props.json";
+
 const cards = [
   "laksjdflkjasdf ldjfsadf lksjdf  sldkfj asldkfasd ñlkasdj alsdkfj asdflkj asdflkjasdf ",
   "as",
@@ -29,7 +26,7 @@ export default function TitleComponentPage() {
       <div className="flex flex-col gap-3">
         <Title
           level="p"
-          variant="h1"
+          variant="h2"
           className="text-neutral-800 dark:text-neutral-50"
         >
           Etiqueta {"p"} con apariencia de h1
@@ -49,37 +46,14 @@ export default function TitleComponentPage() {
       </div>
       <Separator />
       <TextBlock
+        level="h2"
         title="Estilos por defecto:"
         texts={[
           "Por defecto tanto la apariencia como la semantica son las de un **encabezado de primer nivel (h1)**, como hemos visto en el ejemplo anterior se pueden cambiar.",
           "El **color del texto** dadas la gran variedad de colores que demandan los proyectos hemos decidido que se otorguen por **clases css** y asi dar soporte a todos los publicos.",
         ]}
       />
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 pt-12 gap-4">
-        {cards.map((item) => {
-          return (
-            <Card key={item} shadow="extra" rounded="small">
-              <CardContent>
-                <CardMedia src="/img/autonomator.webp" />
-                <CardSpacing className="flex flex-col gap-4">
-                  <Title variant="h3">{item}</Title>
-                  <Text>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Adipisci corrupti expedita doloremque iusto corporis vel
-                    ullam. Qui, veniam laudantium distinctio optio voluptates
-                    totam explicabo itaque.
-                  </Text>
-                </CardSpacing>
-              </CardContent>
-              <CardSpacing>
-                <Button variant="fill" rounded="small">
-                  boton
-                </Button>
-              </CardSpacing>
-            </Card>
-          );
-        })}
-      </div>
+      <Props data={data.title} />
     </>
   );
 }

@@ -5,6 +5,9 @@ import Button from "@/app/components/design/Button";
 import { Title } from "@/app/components/design/Title";
 import Text from "@/app/components/design/Text";
 import List from "@/app/components/design/List";
+import Props from "@/app/components/design/sections/Props";
+import data from "@/lib/data/props.json";
+
 type ButtonVariant = "line" | "basic" | "fill" | "vintage";
 type ButtonColor =
   | "default"
@@ -75,7 +78,7 @@ export default function ButtonPage() {
         </Text>
         <Separator />
 
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4">
           {variants.map((item, index) => {
             return (
               <Button key={index} variant={item}>
@@ -106,6 +109,7 @@ export default function ButtonPage() {
           })}
         </div>
       </div>
+      <Props data={data.button} />
     </>
   );
 }

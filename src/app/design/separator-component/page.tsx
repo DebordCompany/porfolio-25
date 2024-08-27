@@ -1,7 +1,7 @@
-import { Title } from "@/app/components/design/Title";
-import Text from "@/app/components/design/Text";
+import Props from "@/app/components/design/sections/Props";
 import { Separator } from "@/app/components/design/Separator";
 import TextBlock from "@/app/components/design/sections/TextBlock";
+import data from "@/lib/data/props.json";
 
 const separators: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -39,12 +39,13 @@ export default function SeparatorPage() {
         })}
 
         <div>
-          <span>className: p-{"[300px]"}</span>
+          <span>className: pt-{"[300px]"}</span>
           <div className="border-2 border-amber-500 rounded-sm">
-            <Separator className="p-[300px]" />
+            <Separator className="pt-[300px]" />
           </div>
         </div>
       </div>
+      <Props data={data.separator} />
     </>
   );
 }
