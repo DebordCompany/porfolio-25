@@ -46,7 +46,11 @@ export default function Design() {
             <Title level="p">este es el resultado:</Title>
             <Separator />
             <div className="flex flex-col gap-3">
-              <Title level="p" variant="h1" className="text-neutral-800">
+              <Title
+                level="p"
+                variant="h1"
+                className="text-neutral-800 dark:text-neutral-50"
+              >
                 Etiqueta {"p"} con apariencia de h1
               </Title>
               <Title level="h1" variant="h2" className="text-amber-700">

@@ -1,5 +1,5 @@
 "use client";
-import Hero from "@/app/components/design/sections/Hero";
+import TextBlock from "@/app/components/design/sections/TextBlock";
 import { Separator } from "@/app/components/design/Separator";
 import Button from "@/app/components/design/Button";
 import { Title } from "@/app/components/design/Title";
@@ -53,17 +53,22 @@ export default function ButtonPage() {
   }
   return (
     <>
-      <Hero
+      <TextBlock
         title={"Button"}
-        subtitle={
-          "Descubre cómo nuestro botón interactivo mejora la experiencia de usuario, con opciones personalizables y una integración sencilla en cualquier proyecto. Aprende a implementarlo y configurarlo según tus necesidades, optimizando la funcionalidad y el diseño de tu interfaz de usuario. ¡Explora sus características y maximiza la eficiencia en tu desarrollo web!."
-        }
+        texts={[
+          "Descubre cómo nuestro botón interactivo mejora la experiencia de usuario, con opciones personalizables y una integración sencilla en cualquier proyecto. Aprende a implementarlo y configurarlo según tus necesidades, optimizando la funcionalidad y el diseño de tu interfaz de usuario. ¡Explora sus características y maximiza la eficiencia en tu desarrollo web!.",
+        ]}
       />
       <Separator />
       <div>
-        <Title>Estilos</Title>
-        <Text>Cuatro estilos diferentes de botón</Text>
-        <List items={variants} />
+        <TextBlock
+          title="Estilos"
+          texts={["Cuatro estilos diferentes de botón"]}
+          level="h2"
+        />
+        <div className="py-3">
+          <List items={variants} />
+        </div>
         <Text>
           Estan diseñados para incluir directamente en cualquier diseño que
           necesites, todas ellas cuentan con version oscura.
@@ -81,17 +86,15 @@ export default function ButtonPage() {
         </div>
       </div>
       <Separator />
-
       <div>
-        <Title>Colores:</Title>
-        <Text>
-          Puedes usar nuestro colores por defecto{" "}
-          <strong>
-            {"(default, white, primary, secondary, success, error, warning)"}
-          </strong>
-          , este componente de momento no es personalizable de manera nativa,
-          pero puede ser configurado de manera aditiva con clases css.
-        </Text>
+        <TextBlock
+          title="Colores:"
+          texts={[
+            "Puedes usar nuestro colores por defecto **(default, white, primary, secondary, success, error, warning)** , este componente de momento no es personalizable de manera nativa, pero puede ser configurado de manera aditiva con clases css.",
+          ]}
+          level="h2"
+        />
+
         <Separator />
         <div className="flex gap-4 flex-wrap">
           {colors.map((item, index) => {
