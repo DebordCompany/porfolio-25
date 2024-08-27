@@ -9,6 +9,7 @@ export const Title: FC<TitleProps> = ({
   level = "h1",
   variant = level,
   className = "",
+  ...props
 }) => {
   const variants = [
     {
@@ -30,6 +31,7 @@ export const Title: FC<TitleProps> = ({
       level,
       {
         className: `font-bold ${variantStyle?.style} ${className}`,
+        ...props,
       },
       children
     );
