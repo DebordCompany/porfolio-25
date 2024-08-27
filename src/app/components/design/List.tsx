@@ -1,6 +1,6 @@
 export default function List({ items }) {
   return (
-    <ul>
+    <ul className="pl-6">
       {items.map((element, index) => {
         return (
           <li className="pl-4 relative list" key={index}>

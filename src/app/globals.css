@@ -55,10 +55,10 @@ input:focus + label {
   content: "";
   position: absolute;
   left: 0;
-  top: 11px;
-  background-color: #333;
-  height: 4px;
-  width: 4px;
+  top: 9px;
+  background-color: #616161;
+  height: 6px;
+  width: 6px;
   border-radius: 10px;
 }
 h1::selection,
@@ -101,14 +101,7 @@ div::-webkit-scrollbar-thumb {
     border: 2px solid white;
   }
   .list::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 11px;
     background-color: #f4f4f4;
-    height: 4px;
-    width: 4px;
-    border-radius: 10px;
   }
 }
 @media (min-width: 768px) {
