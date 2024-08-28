@@ -52,7 +52,9 @@ export default function Props({ data }) {
       {data.relations.map((relation) => {
         return (
           <Link href={relation.route} key={relation}>
-            <Chip colors="secondary">{relation.name}</Chip>
+            <Chip colors="secondary" variant="line">
+              {relation.name}
+            </Chip>
           </Link>
         );
       })}
