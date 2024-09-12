@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Title } from "@/app/components/design/Title";
-import { Separator } from "@/app/components/design/Separator";
+import { Separator, Title } from "debord-design";
 import TextBlock from "@/app/components/design/sections/TextBlock";
 import Props from "@/app/components/design/sections/Props";
 import data from "@/lib/data/props.json";

@@ -1,5 +1,5 @@
 import Props from "@/app/components/design/sections/Props";
-import { Separator } from "@/app/components/design/Separator";
+import { Separator } from "debord-design";
 import TextBlock from "@/app/components/design/sections/TextBlock";
 import data from "@/lib/data/props.json";
 

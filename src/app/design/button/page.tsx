@@ -1,12 +1,9 @@
 "use client";
 import TextBlock from "@/app/components/design/sections/TextBlock";
-import { Separator } from "@/app/components/design/Separator";
-import Button from "@/app/components/design/Button";
-import { Title } from "@/app/components/design/Title";
-import Text from "@/app/components/design/Text";
 import List from "@/app/components/design/List";
 import Props from "@/app/components/design/sections/Props";
 import data from "@/lib/data/props.json";
+import { Separator, Text, Button } from "debord-design";
 
 type ButtonVariant = "line" | "basic" | "fill" | "vintage";
 type ButtonColor =

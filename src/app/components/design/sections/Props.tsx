@@ -1,8 +1,6 @@
 import BoldTypography from "../../ui/utils/BoldTypography";
-import { Separator } from "../Separator";
-import { Title } from "../Title";
 import TextBlock from "./TextBlock";
-import { Chip } from "../Chip";
+import { Chip, Title, Separator } from "debord-design";
 import Link from "next/link";
 
 export default function Props({ data }) {

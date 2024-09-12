@@ -1,5 +1,4 @@
-import { Title } from "../Title";
-import Text from "../Text";
+import { Title, Text } from "debord-design";
 import BoldTypography from "../../ui/utils/BoldTypography";
 
 export interface TextBlockType {
