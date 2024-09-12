@@ -30,7 +30,7 @@
       { "name": "Variant", "values": ["h1", "h2", "h3", "h4", "h5", "h6", "p"] }
     ],
     "explain": "",
-    "relations": [{ "name": "Button", "route": "/design/button-component" }]
+    "relations": [{ "name": "Button", "route": "/design/button" }]
   },
   "separator": {
     "name": "Separator",

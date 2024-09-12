@@ -1,10 +1,8 @@
-import { Title } from "../components/design/Title";
-import Text from "../components/design/Text";
 import Pre from "../components/design/Pre";
 import List from "../components/design/List";
-import { Separator } from "../components/design/Separator";
+import { Separator, Text, Title } from "debord-design";
 import FooterHeader from "../components/design/sections/FooterHeader";
-import { codeExampleTitle } from "@/lib/data/code";
+import { codeExampleTitle, tailwindConfig } from "@/lib/data/code";
 const requisites = ["React (16)", "Tailwind", "Node.js"];
 
 export default function Design() {
@@ -31,11 +29,14 @@ export default function Design() {
           <Text>Puedes instalarlo mediante npm con este comando</Text>
           <Pre>npm install debord-design</Pre>
           <Title level="h3">Estilos:</Title>
-          <Text>Añade esta linea al archivo principal de css</Text>
-          <Pre>{`@import "debord-design/dist/style.css";`}</Pre>
+          <Text>
+            Añade nuestro pluging a tu archivo{" "}
+            <strong>tailwind.config.js</strong>
+          </Text>
+          <Pre>{tailwindConfig}</Pre>
         </div>
         <div className="flex flex-col gap-6">
-          <Title level="h2">uso basico:</Title>
+          <Title level="h2">Uso basico:</Title>
           <Text>
             Después de instalar la librería, puedes empezar a usar los
             componentes en tu aplicación React. Aquí tienes un ejemplo básico de
