@@ -20,21 +20,21 @@ export default function Pre({
     }, 150);
   }
   return (
-    <div className={`flex flex-col gap-2 `} onClick={copyText}>
+    <div className={`flex flex-col gap-2 relative`} onClick={copyText}>
       <div
-        className={`p-6 bg-neutral-950 rounded-lg shadow-lg overflow-auto min-w-full max-h-52  ${
+        className={`p-6 bg-neutral-950 rounded-lg shadow-lg overflow-auto min-w-full max-h-96   ${
           heigth ? minHeigth.className : ""
         }`}
       >
-        <pre className="h-full relative">
-          <div className="flex justify-end absolute top-0 w-full">
+        <pre className="h-full">
+          <div className=" absolute -top-4 right-4 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="#f4f4f4"
-              className={`size-6 p-1 bg-neutral-950 shadow-md rounded-md transition ease-in duration-75  ${
+              className={`size-6 p-1 bg-neutral-950 shadow-md rounded-md transition ease-in duration-75 border-2 border-neutral-100  ${
                 copy ? "scale-110 " : ""
               }`}
             >
@@ -45,7 +45,7 @@ export default function Pre({
               />
             </svg>
           </div>
-          <code className="text-neutral-50">{children}</code>
+          <code className="text-neutral-50 text-sm">{children}</code>
         </pre>
       </div>
     </div>
