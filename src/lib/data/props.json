@@ -18,6 +18,10 @@
       {
         "name": "Rounded",
         "values": ["small", "medium", "big", "extra", "pill"]
+      },
+      {
+        "name": "Shadow",
+        "values": ["small", "medium", "big", "extra", "none", "vintage"]
       }
     ],
     "explain": "",
