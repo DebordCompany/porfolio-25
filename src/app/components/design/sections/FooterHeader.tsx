@@ -8,7 +8,7 @@ export default function FooterHeader() {
           return (
             <li key={item.id}>
               <Link
-                className="p-3 border-2 border-neutral-800 dark:border-neutral-100 rounded-md flex flex-col "
+                className="p-3 border-2 border-neutral-800 dark:border-neutral-100 rounded-md flex flex-col h-full"
                 href={item.route}
               >
                 <p className="font-bold text-xl">{item.name}</p>
