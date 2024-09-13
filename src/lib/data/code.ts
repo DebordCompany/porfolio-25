@@ -14,7 +14,7 @@ export const codeExampleTitle = `<Title level="p" variant="h1" className="text-w
     Etiqueta "h6" con apariencia de h5
 </Title>
 `;
-export const tailwindConfig = `/** @type {import('tailwindcss').Config} */
+export const tailwindConfig = `
 import { debordUi } from 'debord-design'
 export default {
   content: [
