@@ -1,0 +1,297 @@
+[
+  {
+    "id": 0,
+    "source": "/img/.DS_Store",
+    "alt": ".DS_Store"
+  },
+  {
+    "id": 1,
+    "source": "/img/2GoTours.webp",
+    "alt": "2GoTours.webp"
+  },
+  {
+    "id": 2,
+    "source": "/img/autonomator.webp",
+    "alt": "autonomator.webp"
+  },
+  {
+    "id": 3,
+    "source": "/img/bg-projects.webp",
+    "alt": "bg-projects.webp"
+  },
+  {
+    "id": 4,
+    "source": "/img/bg-projects_1.webp",
+    "alt": "bg-projects_1.webp"
+  },
+  {
+    "id": 5,
+    "source": "/img/bg-projects_2.webp",
+    "alt": "bg-projects_2.webp"
+  },
+  {
+    "id": 6,
+    "source": "/img/bg-projects_3.webp",
+    "alt": "bg-projects_3.webp"
+  },
+  {
+    "id": 7,
+    "source": "/img/buho_left.webp",
+    "alt": "buho_left.webp"
+  },
+  {
+    "id": 8,
+    "source": "/img/buho_right.png",
+    "alt": "buho_right.png"
+  },
+  {
+    "id": 9,
+    "source": "/img/buho_right.webp",
+    "alt": "buho_right.webp"
+  },
+  {
+    "id": 10,
+    "source": "/img/curriculum.pdf",
+    "alt": "curriculum.pdf"
+  },
+  {
+    "id": 11,
+    "source": "/img/debord.webp",
+    "alt": "debord.webp"
+  },
+  {
+    "id": 12,
+    "source": "/img/debord1.webp",
+    "alt": "debord1.webp"
+  },
+  {
+    "id": 13,
+    "source": "/img/debord10.webp",
+    "alt": "debord10.webp"
+  },
+  {
+    "id": 14,
+    "source": "/img/debord11.webp",
+    "alt": "debord11.webp"
+  },
+  {
+    "id": 15,
+    "source": "/img/debord12.webp",
+    "alt": "debord12.webp"
+  },
+  {
+    "id": 16,
+    "source": "/img/debord13.webp",
+    "alt": "debord13.webp"
+  },
+  {
+    "id": 17,
+    "source": "/img/debord2.webp",
+    "alt": "debord2.webp"
+  },
+  {
+    "id": 18,
+    "source": "/img/debord3.webp",
+    "alt": "debord3.webp"
+  },
+  {
+    "id": 19,
+    "source": "/img/debord4.webp",
+    "alt": "debord4.webp"
+  },
+  {
+    "id": 20,
+    "source": "/img/debord5.webp",
+    "alt": "debord5.webp"
+  },
+  {
+    "id": 21,
+    "source": "/img/debord6 copia.webp",
+    "alt": "debord6 copia.webp"
+  },
+  {
+    "id": 22,
+    "source": "/img/debord6.webp",
+    "alt": "debord6.webp"
+  },
+  {
+    "id": 23,
+    "source": "/img/debord7.webp",
+    "alt": "debord7.webp"
+  },
+  {
+    "id": 24,
+    "source": "/img/debord8.webp",
+    "alt": "debord8.webp"
+  },
+  {
+    "id": 25,
+    "source": "/img/debord9.webp",
+    "alt": "debord9.webp"
+  },
+  {
+    "id": 26,
+    "source": "/img/email.png",
+    "alt": "email.png"
+  },
+  {
+    "id": 27,
+    "source": "/img/ez1.webp",
+    "alt": "ez1.webp"
+  },
+  {
+    "id": 28,
+    "source": "/img/ez2.webp",
+    "alt": "ez2.webp"
+  },
+  {
+    "id": 29,
+    "source": "/img/ez3.webp",
+    "alt": "ez3.webp"
+  },
+  {
+    "id": 30,
+    "source": "/img/ez4.webp",
+    "alt": "ez4.webp"
+  },
+  {
+    "id": 31,
+    "source": "/img/ezpays-front.webp",
+    "alt": "ezpays-front.webp"
+  },
+  {
+    "id": 32,
+    "source": "/img/fondo-puntos.svg",
+    "alt": "fondo-puntos.svg"
+  },
+  {
+    "id": 33,
+    "source": "/img/formatos varios",
+    "alt": "formatos varios"
+  },
+  {
+    "id": 34,
+    "source": "/img/foto_perfil.webp",
+    "alt": "foto_perfil.webp"
+  },
+  {
+    "id": 35,
+    "source": "/img/github-white.svg",
+    "alt": "github-white.svg"
+  },
+  {
+    "id": 36,
+    "source": "/img/github.svg",
+    "alt": "github.svg"
+  },
+  {
+    "id": 37,
+    "source": "/img/instagram-white.svg",
+    "alt": "instagram-white.svg"
+  },
+  {
+    "id": 38,
+    "source": "/img/instagram.png",
+    "alt": "instagram.png"
+  },
+  {
+    "id": 39,
+    "source": "/img/instagram.svg",
+    "alt": "instagram.svg"
+  },
+  {
+    "id": 40,
+    "source": "/img/las-vegas-landscape.webp",
+    "alt": "las-vegas-landscape.webp"
+  },
+  {
+    "id": 41,
+    "source": "/img/linkedin-white.svg",
+    "alt": "linkedin-white.svg"
+  },
+  {
+    "id": 42,
+    "source": "/img/linkedin.png",
+    "alt": "linkedin.png"
+  },
+  {
+    "id": 43,
+    "source": "/img/linkedin.svg",
+    "alt": "linkedin.svg"
+  },
+  {
+    "id": 44,
+    "source": "/img/pildoras.webp",
+    "alt": "pildoras.webp"
+  },
+  {
+    "id": 45,
+    "source": "/img/tours1.webp",
+    "alt": "tours1.webp"
+  },
+  {
+    "id": 46,
+    "source": "/img/tours2.webp",
+    "alt": "tours2.webp"
+  },
+  {
+    "id": 47,
+    "source": "/img/tours3.webp",
+    "alt": "tours3.webp"
+  },
+  {
+    "id": 48,
+    "source": "/img/tours4.webp",
+    "alt": "tours4.webp"
+  },
+  {
+    "id": 49,
+    "source": "/img/tours5.webp",
+    "alt": "tours5.webp"
+  },
+  {
+    "id": 50,
+    "source": "/img/tours6.webp",
+    "alt": "tours6.webp"
+  },
+  {
+    "id": 51,
+    "source": "/img/tours7.webp",
+    "alt": "tours7.webp"
+  },
+  {
+    "id": 52,
+    "source": "/img/tours8.webp",
+    "alt": "tours8.webp"
+  },
+  {
+    "id": 53,
+    "source": "/img/tours9.webp",
+    "alt": "tours9.webp"
+  },
+  {
+    "id": 54,
+    "source": "/img/trazos copy.webp",
+    "alt": "trazos copy.webp"
+  },
+  {
+    "id": 55,
+    "source": "/img/trazos.webp",
+    "alt": "trazos.webp"
+  },
+  {
+    "id": 56,
+    "source": "/img/trazos1.webp",
+    "alt": "trazos1.webp"
+  },
+  {
+    "id": 57,
+    "source": "/img/trazos2.webp",
+    "alt": "trazos2.webp"
+  },
+  {
+    "id": 58,
+    "source": "/img/trazos3.webp",
+    "alt": "trazos3.webp"
+  }
+]
