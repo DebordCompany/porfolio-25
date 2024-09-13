@@ -1,7 +1,7 @@
 import { Text } from "debord-design";
 export default function InfoWarning({ children }) {
   return (
-    <div className="p-4 rounded-md bg-gray-200">
+    <div className="p-4 rounded-md bg-amber-100">
       <Text>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -9,7 +9,7 @@ export default function InfoWarning({ children }) {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="size-6"
+          className="size-6 text-warning"
         >
           <path
             strokeLinecap="round"
