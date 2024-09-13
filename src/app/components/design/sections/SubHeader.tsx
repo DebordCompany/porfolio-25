@@ -6,6 +6,7 @@ import { components } from "@/lib/data/componetsHeader";
 import LinkIcon from "@/app/icons/LinkIcon";
 import data from "@/lib/data/data.json";
 import Link from "next/link";
+import { Separator } from "debord-design";
 
 export default function SubHeader() {
   const [open, setOpen] = useState(false);
@@ -22,7 +23,7 @@ export default function SubHeader() {
           onClick={() => setOpen(false)}
           className="fixed w-full h-dvh flex justify-center items-center z-10 top-0 left-0 bg-opacity-20 bg-neutral-800 "
         >
-          <nav className="max-w-[90%] rounded-lg shadow-debord dark:shadow-2xl dark:border-2 dark:border-white p-4 md:max-w-2xl   min-h-96 w-full z-20  bg-white dark:bg-neutral-800 flex flex-col justify-between">
+          <nav className="max-w-[90%] rounded-lg shadow-debord dark:shadow-2xl dark:border-2 dark:border-white p-4 md:max-w-2xl   min-h-96 max-h-[80%] overflow-auto w-full z-20  bg-white dark:bg-neutral-800 flex flex-col justify-between">
             <ul className="p-2 flex flex-col gap-6">
               <div>
                 <p className="font-bold mb-4 underline">Empezamos</p>
@@ -60,6 +61,7 @@ export default function SubHeader() {
                 </li>
               </div>
             </ul>
+            <Separator />
             <footer className="p-2 w-1/2 flex justify-start gap-2 invert-[1] dark:invert-0">
               {data.basics.profiles.map((item) => {
                 return (

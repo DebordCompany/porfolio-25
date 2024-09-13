@@ -17,4 +17,10 @@ export const components = [
     name: "Separator",
     description: "Get a Separator component",
   },
+  {
+    id: 4,
+    route: "/design/chip",
+    name: "Chip",
+    description: "Get a Chip component",
+  },
 ];

@@ -42,5 +42,34 @@
     ],
     "explain": "",
     "relations": [{ "name": "Title", "route": "/design/title-component" }]
+  },
+  "chip": {
+    "name": "Chip",
+    "props": [
+      {
+        "name": "Color",
+        "values": [
+          "default",
+          "primary",
+          "secondary",
+          "error",
+          "warning",
+          "success"
+        ]
+      },
+      { "name": "Variant", "values": ["line", "fill"] },
+      {
+        "name": "Rounded",
+        "values": ["small", "medium", "big", "extra", "pill"]
+      },
+      {
+        "name": "Shadow",
+        "values": ["small", "medium", "big", "extra", "none", "vintage"]
+      }
+    ],
+    "explain": "",
+    "relations": [
+      { "name": "Separator", "route": "/design/separator-component" }
+    ]
   }
 }
