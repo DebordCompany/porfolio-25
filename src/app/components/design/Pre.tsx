@@ -27,7 +27,7 @@ export default function Pre({
         }`}
       >
         <pre className="h-full">
-          <div className=" absolute -top-4 right-4 ">
+          <div title="Copy text" className=" absolute -top-4 right-4 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
