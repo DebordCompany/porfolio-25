@@ -8,7 +8,7 @@ export interface TextBlockType {
 }
 export default function TextBlock({ title, texts, level }: TextBlockType) {
   return (
-    <section className="flex flex-col gap-1">
+    <section className="flex flex-col gap-3">
       <Title className="pb-2" level={level}>
         {title}
       </Title>

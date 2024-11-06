@@ -24,6 +24,26 @@ export default {
   ],
   
   plugins: [debordUi()],
-}
-
-`;
+}`;
+export const simpleCard = `
+<Card shadow="big">
+    <CardContent>
+        <CardMedia
+          height={250}
+          src="/img/debord6.webp"
+          alt="imagen de ejemplo para tarjeta"
+        />
+        <CardSpacing>
+          <Title variant="h3">Texto de ejemplo</Title>
+             <Text>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Earum, sequi?
+             </Text>
+        </CardSpacing>
+    </CardContent>
+    <CardSpacing>
+        <Button variant="fill" rounded="medium" shadow="medium">
+         Action
+        </Button>
+    </CardSpacing>
+</Card>`;

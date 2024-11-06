@@ -23,4 +23,16 @@ export const components = [
     name: "Chip",
     description: "Get a Chip component",
   },
+  {
+    id: 5,
+    route: "/design/card",
+    name: "Card",
+    description: "Get a Card component",
+  },
+  {
+    id: 6,
+    route: "/design/text",
+    name: "Text",
+    description: "Get a Text component",
+  },
 ];

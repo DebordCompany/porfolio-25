@@ -75,5 +75,38 @@
     "relations": [
       { "name": "Separator", "route": "/design/separator-component" }
     ]
+  },
+  "text": {
+    "name": "Text",
+    "props": [
+      {
+        "name": "Children",
+        "values": []
+      },
+      { "name": "ClassName", "values": ["all classes"] }
+    ],
+    "explain": "",
+    "relations": [{ "name": "Card", "route": "/design/card" }]
+  },
+  "card": {
+    "name": "Card",
+    "props": [
+      {
+        "name": "Rounded",
+        "values": ["small", "medium", "big", "extra"]
+      },
+      {
+        "name": "Shadow",
+        "values": ["small", "medium", "big", "extra", "vintage"]
+      },
+      {
+        "name": "Line",
+        "values": ["small", "medium", "big"]
+      }
+    ],
+    "explain": "",
+    "relations": [
+      { "name": "Separator", "route": "/design/separator-component" }
+    ]
   }
 }
