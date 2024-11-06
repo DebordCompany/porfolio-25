@@ -1,13 +1,13 @@
 const fs = require("node:fs");
-// import path from "node:path";
 
 fs.readdir("./public/img", (err, data) => {
+  const id = crypto.randomUUID();
   if (err) throw err;
   console.log(data);
   const imageData = "./src/lib/data/imageList.json";
-  const images = data.map((image, index) => {
+  const images = data.map((image) => {
     return {
-      id: index++,
+      id: id,
       source: `/img/${image}`,
       alt: image,
     };
