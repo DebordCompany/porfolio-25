@@ -1,6 +1,8 @@
 import Pre from "@/app/components/design/Pre";
 import InfoWarning from "@/app/components/design/sections/InfoWarning";
+import Props from "@/app/components/design/sections/Props";
 import TextBlock from "@/app/components/design/sections/TextBlock";
+import data from "@/lib/data/props.json";
 import { simpleCard } from "@/lib/data/code";
 import {
   Separator,
@@ -27,12 +29,33 @@ export default function CardPage() {
 
       <div>
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Card shadow="big">
               <CardContent>
                 <CardMedia
                   height={250}
                   src="/img/debord6.webp"
+                  alt="imagen de ejemplo para tarjeta"
+                />
+                <CardSpacing>
+                  <Title variant="h3">Título de ejemplo</Title>
+                  <Text>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum, sequi?
+                  </Text>
+                </CardSpacing>
+              </CardContent>
+              <CardSpacing>
+                <Button variant="fill" rounded="medium" shadow="medium">
+                  Action
+                </Button>
+              </CardSpacing>
+            </Card>
+            <Card line="big">
+              <CardContent>
+                <CardMedia
+                  height={250}
+                  src="/img/debord11.webp"
                   alt="imagen de ejemplo para tarjeta"
                 />
                 <CardSpacing>
@@ -104,6 +127,8 @@ export default function CardPage() {
             );
           })}
         </div>
+        <Separator />
+        <Props data={data.card} />
       </div>
     </>
   );

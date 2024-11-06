@@ -29,4 +29,10 @@ export const components = [
     name: "Card",
     description: "Get a Card component",
   },
+  {
+    id: 6,
+    route: "/design/text",
+    name: "Text",
+    description: "Get a Text component",
+  },
 ];
