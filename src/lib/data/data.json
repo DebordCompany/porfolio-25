@@ -10,13 +10,13 @@
   },
   "basics": {
     "name": "Mario Sanz Gutiérrez",
-    "label": "FrontEnd developer con experiencia en diseño.",
+    "label": "FrontEnd developer.",
     "image": "/img/foto_perfil.webp",
     "email": "work@debordcompany.com",
     "phone": "+34 653 90 16 43",
     "url": "https://debordcompany.es",
     "summary": [
-      "Hola, soy <strong>Mario Sanz</strong>, cuento con más de dos años de experiencia como desarrollador Front-End, he tenido el privilegio de contribuir a una variedad de proyectos. Esta diversidad de experiencias me ha enriquecido con un amplio espectro de conocimientos y perspectivas. "
+      "Hola, soy <strong>Mario Sanz</strong>, cuento con más de cuatro años de experiencia como desarrollador Front-End, he tenido el privilegio de contribuir a una variedad de proyectos. Esta diversidad de experiencias me ha enriquecido con un amplio espectro de conocimientos y perspectivas. "
     ],
     "location": {
       "address": "",
@@ -45,12 +45,20 @@
   },
   "work": [
     {
+      "name": "Lazarus Technology",
+      "position": "FrontEnd Developer",
+      "startDate": "2024-09-01",
+      "endDate": "Actual",
+      "summary": "Mi rol dentro de Lazarus se centra en la arquitectura, desarrollo y mantenimiento de una plataforma de microservicios escalable y robusta. Me especializo en la creación de servicios independientes y reutilizables, utilizando tecnologías como  React, Vue.js, Node.js, deno, php, SQL... En el proceso de trabajo aplicamos arquitectura DDD, TDD y SCRUM. ",
+      "highlights": ["Started the company"]
+    },
+    {
       "name": "Ezpays",
       "position": "FrontEnd developer",
       "url": "https://ezpays.io/",
       "startDate": "2023-01-01",
-      "endDate": "Actual",
-      "summary": "Entre mis responsabilidades están: crear componentes en diferentes bibliotecas ( React.js, Vue,js), crear e integrar pasarelas de pago via API personalizadas para cada cliente, desarrollar kit digitales...  ",
+      "endDate": "2025-04-01",
+      "summary": "Entre mis responsabilidades están: crear componentes en diferentes bibliotecas (Vue,js, React.js), crear e integrar pasarelas de pago via API personalizadas para cada cliente, desarrollar kit digitales...  ",
       "highlights": ["Started the company"]
     },
     {
@@ -58,16 +66,8 @@
       "position": "Desarrollador web",
       "url": "https://trazos.net/",
       "startDate": "2023-02-01",
-      "endDate": "Actual",
-      "summary": "Mi función dentro de Trazos_ es el mantenimiento, soporte, desarrollo y escalabilidad de las distintas webs de la empresa aplicando tecnologias como React, Node, vanilla js...",
-      "highlights": ["Started the company"]
-    },
-    {
-      "name": "HN34",
-      "position": "FrontEnd Developer",
-      "startDate": "2022-07-01",
-      "endDate": "2023-01-01",
-      "summary": "En HN34 realicé las practicas del máster en desarrollo frontEnd, mis funciones eran y son (ya que sigo colaborando con ellos puntualmente) desarrollo web utilizando como tecnologías Vue,js, CSS, HTML, email marketing, internacionalización, integración de un motor de reservas... ",
+      "endDate": "2024-01-01",
+      "summary": "Mi función dentro de Trazos_ es el mantenimiento, soporte, desarrollo y escalabilidad de las distintas webs de la empresa aplicando tecnologias como React, Vue.js, Node, vanilla js...",
       "highlights": ["Started the company"]
     },
     {
